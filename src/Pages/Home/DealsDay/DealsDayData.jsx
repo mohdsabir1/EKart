@@ -1,4 +1,7 @@
 import Image1 from '../../../assets/Deals/1.jpg';
+ import Shirt from '../../../assets/Deals/inperson.jpg';
+ import Back from '../../../assets/Deals/shirtback.jpg';
+import Front from '../../../assets/Deals/shirtfront.jpg';
 import Image2 from '../../../assets/Deals/2.jpg';
 import Image3 from '../../../assets/Deals/3.jpg';
 import Image4 from '../../../assets/Deals/4.jpg';
@@ -8,7 +11,10 @@ const DealsDayData = [
     {
       id: 1,
       heading:'Causal Shirt',
+      main:Shirt,
       img: Image1,
+      Back:Back,
+      Front:Front,
       price:500,
       summary:' Get 20% Off',
       delivery:'free Delivery',

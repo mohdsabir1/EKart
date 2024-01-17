@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import TopDeals from "../Pages/Home/TopDeals/TopDeals";
 import DealsDay from "../Pages/Home/DealsDay/DealsDay";
 import ProductDetails from "../Pages/Home/ProductDetails/ProductDetails";
+import Products from "../Pages/Home/Products/Products";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
 
                 ]
                 
+            },
+            {
+                path:'products',
+                element:<Products></Products>
             },
             {
                 path:'productdetails/:itemId',

@@ -17,13 +17,13 @@ export default function ProductDetails() {
         <>
             <div className='lg:grid lg:grid-cols-2 lg:mt-10 md:mt-10 mt-5'>
                 <div className=' lg:w-[500px] lg:h-[350px] lg:ml-10'>
-                    <img src={item.img} className='lg:w-fit lg:h-[350px] p-5' alt="" />
+                    <img src={item.img} className=' lg:w-fit lg:h-[350px] p-5' alt="" />
 
                     <div>
-                        <div className='flex  w-fit md:mx-auto space-x-2 md:space-x-14  '>
-                            <img src={item.img} className='h-24 w-32 mb-5' alt="" />
-                            <img src={item.img} className='h-24 w-32 mb-5' alt="" />
-                            <img src={item.img} className='h-24 w-32' alt="" />
+                        <div className='flex  w-fit md:mx-auto space-x-2 ml-5  md:space-x-14  '>
+                            <img src={item.img} className=' mix-blend-darken h-24 w-32 mb-5' alt="" />
+                            <img src={item.img} className='  mix-blend-darken h-24 w-32 mb-5' alt="" />
+                            <img src={item.img} className='  h-24 w-32' alt="" />
                         </div>
                     </div>
                     <div className='w-fit mx-auto space-x-10 mt-4'>
